@@ -1,0 +1,108 @@
+baseURL = 'https://new-thread.de/'
+languageCode = 'en-us'
+title = 'New Thread-Software Development'
+theme='risotto'
+author = "Maximilian Nebl"
+copyright = "© [New Thread UG - Maximilian Nebl](https://new-thread.de)"
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "base16-light"
+
+# Sidebar: about/bio
+[params.about]
+description = "Software engineering and consulting from Berlin, Germany."
+logo = "images/logo.png"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/new-thread-ug"
+
+[[params.socialLinks]]
+icon = "fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/company/new-thread-ug/"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:max@new-thread.de"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "references"
+    name = "References"
+    url = "/references/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "work-with-us"
+    name = "Work with us"
+    url = "/work-with-us/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "imprint"
+    name = "Imprint"
+    url = "/imprint/"
+    weight = 30
+
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
