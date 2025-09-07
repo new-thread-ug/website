@@ -6,4 +6,6 @@ draft = false
 
 Max serves as Director, Founder & CTO of AGX World Pte. Ltd.
 
-[//Website](https://agxworld.com) [//Product](https://app.agxworld.com)
+[//Website](https://agxworld.com) 
+
+[//Product](https://app.agxworld.com)

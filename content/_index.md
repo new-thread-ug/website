@@ -1,6 +1,6 @@
 ![Logo](images/logo.png)
 
-`New Thread UG (Haftungsbeschraenkt)` is a privately held `research, software development and consulting` company located in the heart of `Berlin, Germany`. Founded in 2018 by `Maximilian Nebl` and `Robert Lindstädt`.
+`New Thread UG (Haftungsbeschraenkt)` is a privately held `research, software development and consulting` company located in the heart of `Berlin, Germany`. 
 
 A `thread` in computer science is the smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system. In many cases, a thread is a component of a process.
 
@@ -10,8 +10,37 @@ We deliver such `precise sets of instructions` and develop `technological soluti
 
 [Working with us is as easy as sending us an E-Mail](mailto:max@new-thread.de)
 
+At New Thread we are engineers, thinkers, doers, and makers. We strive to shape industries and embody technical excellency.
+
+## Technologies in our Toolbelt
+
+We are experienced in a wide range of technologies, design/patterns of software architecture, and modern toolchains.
+Most of the projects we do are utilizing:
+
+- Golang
+- Rust
+- Javascript/Typescript Ecosystem
+    - Vue, Nuxt, Angular
+    - Nodejs, Deno, and other JS runtimes
+- Docker
+- Kubernetes
+- AWS/GCP/Azure Cloud/Oracle Cloud or deployments to VPS boxes
+
 ## Products & References
 
-We've worked on several different software related products. From large scale payment infrastructure, to facilitaty management solutions, we've seen it - we've programmed for it - we've made companies scale and software that works.
+Our work spans industries and technologies. Amongst others we've worked on software in 
+
+- FinTech 
+- LogTech 
+- Banking
+- Insurance 
+- Hospitality 
+- and several B2C product. 
+
+From large scale payment infrastructure, Container orchestration and logistics collaboration, to facilitaty management solutions: 
+
+    we've seen it - 
+    we've programmed it - 
+    we make software that scales and just works.
 
 [Reach out to us](/work-with-us) to become part of our currated list of [references](/references/)

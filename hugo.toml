@@ -22,7 +22,7 @@ palette = "base16-light"
 
 # Sidebar: about/bio
 [params.about]
-description = "Software engineering and consulting from Berlin, Germany."
+description = "Software development from Berlin, Germany."
 logo = "images/logo.png"
 
 [[params.socialLinks]]
@@ -49,18 +49,22 @@ url = "mailto:max@new-thread.de"
     weight = 10
 
   [[menu.main]]
+    identifier = "team"
+    name = "Team"
+    url = "/team/"
+    weight = 20
+
+  [[menu.main]]
     identifier = "work-with-us"
     name = "Work with us"
     url = "/work-with-us/"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
     identifier = "imprint"
     name = "Imprint"
     url = "/imprint/"
-    weight = 30
-
-
+    weight = 40
 
 [taxonomies]
 category = "categories"
@@ -72,7 +76,6 @@ series = "series"
 unsafe = true
 
 [markup]
-
   # Table of contents
   # Add toc = true to content front matter to enable
   [markup.tableOfContents]
